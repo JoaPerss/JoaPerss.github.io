@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Aloevera';
+  src: local('Aloevera-OVoWO'), url('./fonts/Aloevera-OVoWO.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'Aloevera';
+  font-size: 3em;
+  color: rgb(243, 227, 0);
+}
