@@ -1,8 +1,8 @@
-import Particles from "./components/Particles";
 
 const App = () => {
     return (
-    <Particles />
-)};
+        <div >
+            <h1>App</h1>
+            </div>)};
 
 export default App;
