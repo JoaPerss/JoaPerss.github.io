@@ -6,6 +6,15 @@ module.exports = {
     fontFamily: {
       aloevera: ["Aloevera", "sans-serif"],
     },
+    colors: {
+      //https://coolors.co/f6b034-ffeabf-ed5e50-f85e22-ff7f12
+      honeyYellow: "#F6B034",
+      peach: "#FFEABF",
+      fireOpal: "#ED5E50",
+      orangePantone: "#F85E22",
+      amber: "#FF7F12",
+      white: "#FFFFFF",
+    },
   },
   plugins: [],
 }
