@@ -7,7 +7,7 @@ const Main = () => {
             <h1 class="text-7xl text-center font-aloevera m-10 ">Welcome to my portfolio</h1>
             <div class="flex flex-wrap justify-center">
                 <div class="w-6/12 sm:w-4/12 px-4">
-                    <img src={avatar} alt="Avatar of JoaPerss" class="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
+                    <img src={avatar} alt="Avatar of JoaPerss" class="shadow-lg rounded-full max-w-full h-auto align-middle border-none" draggable="false"/>
                 </div>
             </div>
             <p class="text-2xl text-center font-aloevera m-10 ">This is a collection of some of my projects and skills</p>

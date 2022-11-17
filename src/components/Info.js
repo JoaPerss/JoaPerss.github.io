@@ -14,12 +14,12 @@ class Info extends Component {
                         <div class="flex flex-wrap justify-center">
                             <div class="w-6/12 sm:w-4/12 px-4">
                                 <a href="https://www.linkedin.com/in/joachim-l%C3%B8venskjold-persson-2b0a1617a/" target="_blank" rel="noreferrer">
-                                    <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG19.png" alt="LinkedIn" class="shadow-lg rounded-full max-w-full h-auto align-middle border-none " />
+                                    <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG19.png" alt="LinkedIn" class="shadow-lg rounded-full max-w-full h-auto align-middle border-none" draggable="false" />
                                 </a>                                    
                             </div>
                             <div class="w-6/12 sm:w-4/12 px-4">
                                 <a href="https://github.com/JoaPerss" target="_blank" rel="noreferrer">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="shadow-lg rounded-full max-w-full h-auto align-middle border-none" draggable="false"/>
                                 </a>
                             </div>
                         </div>
