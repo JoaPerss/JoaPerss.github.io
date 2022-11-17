@@ -15,6 +15,9 @@ module.exports = {
       amber: "#FF7F12",
       white: "#FFFFFF",
     },
+    blur: {
+      xs: '2px',
+    },
   },
   plugins: [],
 }
