@@ -9,7 +9,7 @@ import ReactDOM from "react-dom";
 class Projects extends Component {
     render() {
         return (
-            <div class="container mx-auto bg-peach w-4/5 p-5 rounded-lg opacity-98 h-[900px] mt-5">
+            <div class="container mx-auto bg-peach w-4/5 p-5 rounded-lg opacity-98 h-[1150px] mt-5">
                 <h1 class="text-7xl text-center font-aloevera m-10 h-max">Projects</h1>
                 <p class="text-2xl text-center font-aloevera m-10">More projects coming soon!</p>
 
