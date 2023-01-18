@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.acac446f.css",
-    "main.js": "/static/js/main.f6e5a83e.js",
-    "static/js/787.ea9772f6.chunk.js": "/static/js/787.ea9772f6.chunk.js",
-    "static/media/avatarSqr.png": "/static/media/avatarSqr.3df40090253706cef097.png",
-    "static/media/highPriestess.jpg": "/static/media/highPriestess.18982c52253996daacd6.jpg",
-    "static/media/chariot.jpg": "/static/media/chariot.efa506569c503eaaa91f.jpg",
-    "static/media/back.jpg": "/static/media/back.bb535581a8f6b21b12d9.jpg",
-    "static/media/hermit.jpg": "/static/media/hermit.e313328ead73e9d19307.jpg",
-    "static/media/bg.jpg": "/static/media/bg.7218c69feb4c8b5092c1.jpg",
-    "static/media/Aloevera-OVoWO.ttf": "/static/media/Aloevera-OVoWO.e1afeee5869bb951a95d.ttf",
-    "index.html": "/index.html",
-    "main.acac446f.css.map": "/static/css/main.acac446f.css.map",
-    "main.f6e5a83e.js.map": "/static/js/main.f6e5a83e.js.map",
-    "787.ea9772f6.chunk.js.map": "/static/js/787.ea9772f6.chunk.js.map"
+    "main.css": "/joaperssportfolio/static/css/main.2e5eb40f.css",
+    "main.js": "/joaperssportfolio/static/js/main.cef53276.js",
+    "static/js/787.ea9772f6.chunk.js": "/joaperssportfolio/static/js/787.ea9772f6.chunk.js",
+    "static/media/avatarSqr.png": "/joaperssportfolio/static/media/avatarSqr.3df40090253706cef097.png",
+    "static/media/highPriestess.jpg": "/joaperssportfolio/static/media/highPriestess.18982c52253996daacd6.jpg",
+    "static/media/chariot.jpg": "/joaperssportfolio/static/media/chariot.efa506569c503eaaa91f.jpg",
+    "static/media/back.jpg": "/joaperssportfolio/static/media/back.bb535581a8f6b21b12d9.jpg",
+    "static/media/hermit.jpg": "/joaperssportfolio/static/media/hermit.e313328ead73e9d19307.jpg",
+    "static/media/bg.jpg": "/joaperssportfolio/static/media/bg.7218c69feb4c8b5092c1.jpg",
+    "static/media/Aloevera-OVoWO.ttf": "/joaperssportfolio/static/media/Aloevera-OVoWO.e1afeee5869bb951a95d.ttf",
+    "index.html": "/joaperssportfolio/index.html",
+    "main.2e5eb40f.css.map": "/joaperssportfolio/static/css/main.2e5eb40f.css.map",
+    "main.cef53276.js.map": "/joaperssportfolio/static/js/main.cef53276.js.map",
+    "787.ea9772f6.chunk.js.map": "/joaperssportfolio/static/js/787.ea9772f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acac446f.css",
-    "static/js/main.f6e5a83e.js"
+    "static/css/main.2e5eb40f.css",
+    "static/js/main.cef53276.js"
   ]
 }
