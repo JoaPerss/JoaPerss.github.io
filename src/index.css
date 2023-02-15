@@ -9,6 +9,8 @@ body, html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   height: 100%;
   padding: 0;
 
@@ -31,12 +33,46 @@ code {
 
 h1 {
   font-family: 'Aloevera';
-  font-size: 3em;
+  font-size: 3rem;
   color: rgb(0, 0, 0);
+  text-align: center;
 }
 
 p {
   font-family: 'Aloevera';
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Set background image and height of main element */
+main {
+  background-image: url("./images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100% - 60px); /* subtract header height */
+}
+
+/* Add a responsive header */
+header {
+  background-color: #ffffff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header h1 {
+  font-size: 2rem;
+}
+
+/* Add some padding to the content */
+main > * {
+  padding: 1rem;
 }

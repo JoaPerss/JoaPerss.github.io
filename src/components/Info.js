@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Info extends Component {
     render() {
         return (
-            <div class="container mx-auto bg-peach w-4/5 p-5 rounded-lg opacity-98 h-max mt-5">
+            <div class="container mx-auto bg-peach w-full p-5 rounded-lg opacity-98 h-max mt-5">
                 <div class="grid grid-cols-2 gap-4">
                     <div class="col-span-2 sm:col-span-1">
                         <h1 class="text-7xl text-center font-aloevera m-10 ">About me</h1>
