@@ -6,11 +6,11 @@ class Info extends Component {
             <div class="container mx-auto bg-peach w-full p-5 rounded-lg opacity-98 h-max mt-5">
                 <div class="grid grid-cols-2 gap-4">
                     <div class="col-span-2 sm:col-span-1">
-                        <h1 class="text-7xl text-center font-aloevera m-10 ">About me</h1>
+                        <h1 class="lg:text-7xl text-center font-aloevera m-10 text-4xl ">About me</h1>
                         <p class="text-2xl text-center font-aloevera m-10 ">{this.props.info}</p>
                     </div>
                     <div class="col-span-2 sm:col-span-1">
-                        <h1 class="text-7xl text-center font-aloevera m-10 ">Socials</h1>
+                        <h1 class="lg:text-7xl text-center font-aloevera m-10 text-4xl ">Socials</h1>
                         <div class="flex flex-wrap justify-center">
                             <div class="w-6/12 sm:w-4/12 px-4">
                                 <a href="https://www.linkedin.com/in/joachim-l%C3%B8venskjold-persson-2b0a1617a/" target="_blank" rel="noreferrer">
