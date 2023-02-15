@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.acac446f.css",
-    "main.js": "/static/js/main.8d220133.js",
+    "main.css": "/static/css/main.2d98efb2.css",
+    "main.js": "/static/js/main.93d0bc38.js",
     "static/js/787.ea9772f6.chunk.js": "/static/js/787.ea9772f6.chunk.js",
     "static/media/avatarSqr.png": "/static/media/avatarSqr.3df40090253706cef097.png",
     "static/media/highPriestess.jpg": "/static/media/highPriestess.18982c52253996daacd6.jpg",
@@ -11,12 +11,12 @@
     "static/media/bg.jpg": "/static/media/bg.7218c69feb4c8b5092c1.jpg",
     "static/media/Aloevera-OVoWO.ttf": "/static/media/Aloevera-OVoWO.e1afeee5869bb951a95d.ttf",
     "index.html": "/index.html",
-    "main.acac446f.css.map": "/static/css/main.acac446f.css.map",
-    "main.8d220133.js.map": "/static/js/main.8d220133.js.map",
+    "main.2d98efb2.css.map": "/static/css/main.2d98efb2.css.map",
+    "main.93d0bc38.js.map": "/static/js/main.93d0bc38.js.map",
     "787.ea9772f6.chunk.js.map": "/static/js/787.ea9772f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acac446f.css",
-    "static/js/main.8d220133.js"
+    "static/css/main.2d98efb2.css",
+    "static/js/main.93d0bc38.js"
   ]
 }
