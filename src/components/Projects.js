@@ -14,8 +14,7 @@ class Projects extends Component {
                 <p class="text-2xl text-center font-aloevera m-10">More projects coming soon!</p>
 
                 <div class="grid grid-cols-3 gap-4 h-max">
-
-                    <div class="col-span-3 sm:col-span-1">
+                    <div class="col-span-3 sm:col-span-1 card-wrapper">
                         <ReactCardFlipper behavior="hover">
                             <div>
                                 <img src={highPriestess} alt="High Priestess Tarot Card" class="shadow-lg rounded-lg max-w-full h-auto align-middle border-none" draggable="false" />
@@ -29,7 +28,7 @@ class Projects extends Component {
                         </ReactCardFlipper>
                     </div>
 
-                    <div class="col-span-3 sm:col-span-1">
+                    <div class="col-span-3 sm:col-span-1 card-wrapper">
                         <ReactCardFlipper behavior="hover">
                             <div>
                                 <img src={chariot} alt="Chariot Tarot Card" class="shadow-lg rounded-lg max-w-full h-auto align-middle border-none" draggable="false" />
@@ -43,7 +42,7 @@ class Projects extends Component {
                         </ReactCardFlipper>
                     </div>
 
-                    <div class="col-span-3 sm:col-span-1">
+                    <div class="col-span-3 sm:col-span-1 card-wrapper">
                         <ReactCardFlipper behavior="hover">
                             <div>
                                 <img src={hermit} alt="Hermit Tarot Card" class="shadow-lg rounded-lg max-w-full h-auto align-middle border-none" draggable="false" />

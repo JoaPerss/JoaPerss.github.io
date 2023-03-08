@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body, html {
+body,
+html {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -57,22 +58,71 @@ main {
   background-image: url("./images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100% - 60px); /* subtract header height */
+  height: calc(100% - 60px);
+  /* subtract header height */
 }
 
-/* Add a responsive header */
-header {
-  background-color: #ffffff;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 header h1 {
   font-size: 2rem;
 }
 
 /* Add some padding to the content */
-main > * {
+main>* {
   padding: 1rem;
 }
+
+/* make all images not draggable */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-wrapper {
+    padding-bottom: 180%;
+  }
+
+  .card-wrapper p{
+    font-size: 1.5rem;
+  }
+
+  .card-wrapper a{
+    font-size: 1.5rem;
+    margin-top: 6rem;
+  }
+  
+  .card {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-body {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .card-footer {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+}
+
+
