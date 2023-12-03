@@ -1,10 +1,28 @@
 import Main from './components/Main';
 import Info from './components/Info';
 import Projects from './components/Projects';
-import SkillsImage from './components/SkillsImage';
+import SkillsCarousel from './components/Carousel';
 import React from "react";
 
-const aboutMe = "My name is Joachim and I am a 23 year old fullstack developer from Norway. I have a bachelors degree in Information Systems from Østfold University College. My degree was focused on Software Engineering and Business Intelligence. I have broad expirence in development in teams and solo on projects. This includes modern web apps, data science case studies, mobile apps and business analysis.";
+// Birthdate
+const birthdate = new Date('2000-07-01');
+
+// Calculate age dynamically
+const calculateAge = (birthdate) => {
+    const today = new Date();
+    const birthdateThisYear = new Date(today.getFullYear(), birthdate.getMonth(), birthdate.getDate());
+    let age = today.getFullYear() - birthdate.getFullYear();
+
+    if (today < birthdateThisYear) {
+        age--;
+    }
+
+    return age;
+};
+
+const myAge = calculateAge(birthdate);
+
+const aboutMe = "My name is Joachim and I am a " +myAge+ " year old fullstack developer from Norway. I have a bachelors degree in Information Systems from Østfold University College. My degree was focused on Software Engineering and Business Intelligence. I have broad expirence in development in teams and solo on projects. This includes modern web apps, data science case studies, mobile apps and business analysis. I am currently woriking as an engineer in the field of cyber security. Always expanding my knowledge and learning to use new technologies.";
 const skillsImage = ["https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png",
     "https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png",
     "https://www.citypng.com/public/uploads/small/11662223208mrscxxesmsb91zq9ubngbriqcijzc1j6q5u12serbmv9pimrziktl695capupvzdmhwhn7tozqooqkhcuxw9cejvc0fia2foatgb.png",
@@ -21,6 +39,11 @@ const skillsImage = ["https://www.freepnglogos.com/uploads/html5-logo-png/html5-
     "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png ",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/1024px-Cassandra_logo.svg.png",
+    "https://stormagic.com/wp-content/uploads/2020/02/GCP-Logo.png",
+    "https://cdn.document360.io/logo/84ec2311-0e05-4c58-90b9-baa9c041d22b/a8f5c28d58ea4df0b59badd4cebcc541-Logo_Blue.png",
+    "https://companieslogo.com/img/orig/RPD_BIG-716e94b4.png?t=1599052679",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/1024px-Microsoft_Azure_Logo.svg.png"
+    
 ]
 
 const App = () => {
@@ -28,7 +51,7 @@ const App = () => {
         <div>
             <Main />
             <Info info={aboutMe} />
-            <SkillsImage skillsImage={skillsImage} />
+            <SkillsCarousel skillsImage={skillsImage}/>
             <Projects />
         </div>
     );
