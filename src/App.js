@@ -22,7 +22,7 @@ const calculateAge = (birthdate) => {
 
 const myAge = calculateAge(birthdate);
 
-const aboutMe = "My name is Joachim and I am a " +myAge+ " year old fullstack developer from Norway. I have a bachelors degree in Information Systems from Østfold University College. My degree was focused on Software Engineering and Business Intelligence. I have broad expirence in development in teams and solo on projects. This includes modern web apps, data science case studies, mobile apps and business analysis. I am currently woriking as an engineer in the field of cyber security. Always expanding my knowledge and learning to use new technologies.";
+const aboutMe = "My name is Joachim and I am a " +myAge+ " year old fullstack developer from Norway. I have a bachelors degree in Information Systems from Østfold University College. My degree was focused on Software Engineering and Business Intelligence. I have broad experience in development in teams and solo on projects. This includes modern web apps, data science case studies, mobile apps and business analysis. I am currently woriking as an engineer in the field of cyber security. Always expanding my knowledge and learning to use new technologies.";
 const skillsImage = ["https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png",
     "https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png",
     "https://www.citypng.com/public/uploads/small/11662223208mrscxxesmsb91zq9ubngbriqcijzc1j6q5u12serbmv9pimrziktl695capupvzdmhwhn7tozqooqkhcuxw9cejvc0fia2foatgb.png",
