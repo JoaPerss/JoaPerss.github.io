@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.945c1cdd.css",
-    "main.js": "/static/js/main.b83bd95d.js",
+    "main.js": "/static/js/main.6b0013f8.js",
     "static/js/787.ea9772f6.chunk.js": "/static/js/787.ea9772f6.chunk.js",
     "static/media/avatarSqr.png": "/static/media/avatarSqr.3df40090253706cef097.png",
     "static/media/highPriestess.jpg": "/static/media/highPriestess.18982c52253996daacd6.jpg",
@@ -12,11 +12,11 @@
     "static/media/Aloevera-OVoWO.ttf": "/static/media/Aloevera-OVoWO.e1afeee5869bb951a95d.ttf",
     "index.html": "/index.html",
     "main.945c1cdd.css.map": "/static/css/main.945c1cdd.css.map",
-    "main.b83bd95d.js.map": "/static/js/main.b83bd95d.js.map",
+    "main.6b0013f8.js.map": "/static/js/main.6b0013f8.js.map",
     "787.ea9772f6.chunk.js.map": "/static/js/787.ea9772f6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.945c1cdd.css",
-    "static/js/main.b83bd95d.js"
+    "static/js/main.6b0013f8.js"
   ]
 }
