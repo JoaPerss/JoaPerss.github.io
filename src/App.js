@@ -2,6 +2,8 @@ import Main from './components/Main';
 import Info from './components/Info';
 import Projects from './components/Projects';
 import SkillsCarousel from './components/Carousel';
+import Credentials from './components/Credentials';
+import SkillBadges from './components/SkillBadges';
 import React from "react";
 
 // Birthdate
@@ -51,6 +53,8 @@ const App = () => {
         <div>
             <Main />
             <Info info={aboutMe} />
+            <Credentials />
+            <SkillBadges />
             <SkillsCarousel skillsImage={skillsImage}/>
             <Projects />
         </div>
