@@ -1,45 +1,64 @@
-import checkmark from '../images/checkmark.png';
+import serverless from '../images/serverlesscloudrundev.png';
+import camcr from '../images/camcr.png';
+import terraform from '../images/terraform.png';
+import setup from '../images/setup.png';
+import foundationalgcp from '../images/foundationalgcp.png';
 
 const SkillBadges = () => {
     const badges = [
         {
-            name: 'Cloud Engineer Skills Boost',
-            imageUrl: 'https://example.com/badge1.png',
-            link: 'https://www.cloudskillsboost.google/public_profiles/a41a8a26-9711-46e3-8e99-e91614e5f97d',
+            name: 'Serverless Cloud Run Development',
+            imageUrl: serverless,
+            link: 'https://www.cloudskillsboost.google/public_profiles/a41a8a26-9711-46e3-8e99-e91614e5f97d/badges/8122981',
         },
         {
-            name: 'Cloud Architect Skills Boost',
-            imageUrl: 'https://example.com/badge2.png',
-            link: 'https://www.cloudskillsboost.google/public_profiles/a41a8a26-9711-46e3-8e99-e91614e5f97d',
+            name: 'Create and Manage Cloud Resources',
+            imageUrl: camcr,
+            link: 'https://www.cloudskillsboost.google/public_profiles/a41a8a26-9711-46e3-8e99-e91614e5f97d/badges/8098705',
         },
-        // Add more badges as needed
+        {
+            name: 'Automating Infrastructure with Terraform',
+            imageUrl: terraform,
+            link: 'https://www.cloudskillsboost.google/public_profiles/a41a8a26-9711-46e3-8e99-e91614e5f97d/badges/8092056',
+        },
+        {
+            name: 'Cloud Environment Setup',
+            imageUrl: setup,
+            link: 'https://www.cloudskillsboost.google/public_profiles/a41a8a26-9711-46e3-8e99-e91614e5f97d/badges/8079191',
+        },
+        {
+            name: 'App Dev Environment Setup',
+            imageUrl: foundationalgcp,
+            link: 'https://www.cloudskillsboost.google/public_profiles/a41a8a26-9711-46e3-8e99-e91614e5f97d/badges/8054925',
+        },
     ];
 
     return (
-        <div className="container mx-auto bg-peach w-full p-5 rounded-lg opacity-98 h-max mt-5">
-            <h1 className="lg:text-7xl text-center font-aloevera m-10 text-4xl">Skill Badges</h1>
+        <div className="container mx-auto bg-peach w-full p-8 rounded-2xl shadow-lg mt-8">
+            <h1 className="lg:text-6xl text-center font-bold mb-12 text-4xl text-dark-blue">
+                Skill Badges
+            </h1>
 
-            <div className="flex flex-wrap justify-center items-center gap-10 mt-10">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
                 {badges.map((badge, index) => (
-                    <div key={index} className="w-36 text-center flex flex-col items-center">
-                        <div className="flex justify-center items-center bg-white shadow-lg rounded-lg w-32 h-32 mb-4">
+                    <a 
+                        key={index}
+                        href={badge.link} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="group flex flex-col items-center"
+                        aria-label={badge.name}
+                    >
+                        <div className="relative w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 transition-all duration-300 group-hover:scale-110">
+                            <div className="absolute inset-0 bg-white/90 opacity-70 rounded-2xl shadow-md transform group-hover:rotate-3 transition-transform duration-300"></div>
                             <img 
                                 src={badge.imageUrl} 
-                                alt={`${badge.name} Badge`} 
-                                className="max-w-full max-h-full" 
+                                alt={badge.name}
+                                className="relative z-10 w-full h-full object-contain p-4"
                                 draggable="false"
                             />
                         </div>
-                        <h2 className="text-sm font-aloevera font-bold">{badge.name}</h2>
-                        <div className="flex items-center justify-center mt-2">
-                            <a 
-                                href={badge.link} 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                className="text-blue-600 font-aloevera underline">View Badge</a>
-                            <img src={checkmark} alt="Checkmark" className="w-4 h-4 ml-2" />
-                        </div>
-                    </div>
+                    </a>
                 ))}
             </div>
         </div>
