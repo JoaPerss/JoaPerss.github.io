@@ -49,7 +49,7 @@ const SkillBadges = () => {
                         className="group flex flex-col items-center"
                         aria-label={badge.name}
                     >
-                        <div className="relative w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 transition-all duration-300 group-hover:scale-110">
+                        <div className="relative w-56 h-56 md:w-60 md:h-60 lg:w-64 lg:h-64 transition-all duration-300 group-hover:scale-110">
                             <div className="absolute inset-0 bg-white/90 opacity-70 rounded-2xl shadow-md transform group-hover:rotate-3 transition-transform duration-300"></div>
                             <img 
                                 src={badge.imageUrl} 
