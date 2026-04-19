@@ -44,7 +44,7 @@ const skillsImage = ["https://www.freepnglogos.com/uploads/html5-logo-png/html5-
     "https://stormagic.com/wp-content/uploads/2020/02/GCP-Logo.png",
     "https://cdn.document360.io/logo/84ec2311-0e05-4c58-90b9-baa9c041d22b/a8f5c28d58ea4df0b59badd4cebcc541-Logo_Blue.png",
     "https://companieslogo.com/img/orig/RPD_BIG-716e94b4.png?t=1599052679",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/1024px-Microsoft_Azure_Logo.svg.png"
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1280px-Microsoft_Azure.svg.png"
     
 ]
 
