@@ -20,7 +20,7 @@ const Credentials = () => {
                     <h2 className="text-2xl font-aloevera font-bold">GCP Associate Cloud Engineer</h2>
                     <div className="flex items-center justify-center mt-2">
                         <a 
-                            href="https://google.accredible.com/8d598a85-2dff-4582-86c4-d0f9ccc3611b" 
+                            href="https://www.credly.com/badges/3bd1b878-740f-4cce-a439-3e623a998cf5/public_url" 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="text-blue-600 font-aloevera underline">View Certification</a>
