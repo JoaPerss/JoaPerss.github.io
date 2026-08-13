@@ -13,8 +13,7 @@
     "react-particles": "^2.5.3",
     "react-scripts": "^5.0.1",
     "tsparticles": "^2.5.3",
-    "web-vitals": "^2.1.4",
-    "zsh": "^0.0.1"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
